@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>Escala de Funcionarios</title>
+  </head>
+  <body>
+    
+    <nav class="navbar navbar-dark bg-primary">
+        <h1>Escala de Funcionarios</h1>
+      </nav>
+
+      <main class = "container">
+        <h1>Escala de Funcionarios</h1>
+        {%if funcionario_list %}
+      <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">id</th>
+            <th scope="col">Nome</th>
+            <th scope="col">Sobrenome</th>
+            <th scope="col">Registro Empresa</th>
+            <th scope="col">Escala de trabalho</th>
+            <th scope ="col">Ações</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for funcionario in funcionario_list%}
+          <tr>
+            <th scope="row">{{funcionario.pk}}</th>
+            <td>{{funcionario.Nome}}</td>
+            <td>{{funcionario.Sobrenome}}</td>
+            <td>{{funcionario.Registro_Empresa}}</td>
+            <td>{{funcionario.Escala_de_trabalho}}</td>
+            <td>
+
+            <a href="{% url 'atualizar' funcionario.pk %}" class= "btn btn-primary btn-sm">Editar</a>
+            <a href="{% url 'deletar' funcionario.pk %}" class= "btn btn-primary btn-sm">Excluir</a>
+
+            </td>
+          </tr>
+          {% endfor%}
+          
+          
+        </tbody>
+      </table>
+    </main>
+    {%else%}
+      <p> Não há funcionarios cadastrados</p>
+      {%endif%}
+    </body>
+
+
