@@ -2,8 +2,7 @@
 
 # Sistema de Gestão de Escalas de trabalho
 
-Este projeto foi desenvolvido para disciplina de Projeto Integrador 1 da Univesp.Esta sistema foi desenvolvido utilizando  o framework web django e também o sqllite que está embutido no framework Django.
-
+Este projeto foi desenvolvido para disciplina de Projeto Integrador 1 da Univesp. Este sistema foi desenvolvido utilizando  o framework web django e também o sqllite que está embutido no framework Django.
 
 
 
@@ -11,6 +10,7 @@ Este projeto foi desenvolvido para disciplina de Projeto Integrador 1 da Univesp
 
 
 * [Django](https://www.djangoproject.com/)
+
   
   
 ## Dependências e Versões Necessárias
@@ -54,4 +54,4 @@ python manage.py runserver
 
 ## ⏭️ Próximos passos
 
-Descreva se você pretende, pensou ou gostaria de elaborar uma nova feature para o seu projeto definindo os próximos passos.
+Pretendo melhorar o projeto, adicionando funcionalidades.
