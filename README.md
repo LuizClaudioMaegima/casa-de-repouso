@@ -15,9 +15,8 @@ Este projeto foi desenvolvido para disciplina de Projeto Integrador 1 da Univesp
   
 ## Dependências e Versões Necessárias
 
-Para instalar as dependecias rode o seguinte:
+Para instalar as dependencias rode o seguinte:
 
-pip  install requeriments.txt
 
 Django version 5.0.4
 
