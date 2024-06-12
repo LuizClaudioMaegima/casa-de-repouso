@@ -10,6 +10,7 @@ Este projeto foi desenvolvido para disciplina de Projeto Integrador 1 da Univesp
 
 
 * [Django](https://www.djangoproject.com/)
+* Banco de dados Sql
 
   
   
