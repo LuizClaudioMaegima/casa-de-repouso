@@ -28,8 +28,8 @@ Para rodar a aplicação, primeiro clone esse repositorio:
 ```
 git clone https://github.com/LuizClaudioMaegima/casa-de-repouso
 ```
-
-Após rodar o comando execute essa linha de comando:
+```
+cd casa-de
 
 ```
 Set-ExecutionPolicy -Scope Process -ExecutionPolicy bypass
