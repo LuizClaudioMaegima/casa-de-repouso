@@ -29,11 +29,6 @@ Para rodar a aplicação, primeiro clone esse repositorio:
 git clone https://github.com/LuizClaudioMaegima/casa-de-repouso
 ```
 
-Depois, rode o seguinte comando:
-
-```
-cd casa de repouso
-```
 Após rodar o comando execute essa linha de comando:
 
 ```
@@ -41,7 +36,7 @@ Set-ExecutionPolicy -Scope Process -ExecutionPolicy bypass
 ```
 Ative o ambiente virtual
 ```
-.\.venv\Scripts\activate
+
 ```
 Por fim , rode a aplicação :
 ```
