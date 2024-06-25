@@ -17,7 +17,6 @@ Este projeto foi desenvolvido para disciplina de Projeto Integrador 1 da Univesp
 ## Dependências e Versões Necessárias
 
 
-
 Django version 5.0.4
 
 ## Como rodar o projeto ✅
@@ -27,9 +26,13 @@ Para rodar a aplicação, primeiro clone esse repositorio:
 
 ```
 git clone https://github.com/LuizClaudioMaegima/casa-de-repouso
+cd casa-de-repouso
+python -m venv .venv
+ .venv/bin/activate
+pip install -r requirements.txt
+python manage.py migrate
 ```
 ```
-cd casa-de
 
 ```
 Set-ExecutionPolicy -Scope Process -ExecutionPolicy bypass
