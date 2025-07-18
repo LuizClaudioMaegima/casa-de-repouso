@@ -28,7 +28,7 @@ Para rodar a aplicação, primeiro clone esse repositorio:
 git clone https://github.com/LuizClaudioMaegima/casa-de-repouso
 cd casa-de-repouso
 python -m venv .venv
- .venv/bin/activate
+ .\.venv\Scripts\activate 
 pip install -r requirements.txt
 python manage.py migrate
 ```
