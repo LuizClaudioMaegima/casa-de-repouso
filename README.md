@@ -11,10 +11,10 @@ Este projeto foi desenvolvido para disciplina de Projeto Integrador 1 da Univesp
 
 * [Django](https://www.djangoproject.com/)
 * Banco de dados Sql
+* MySqlWorkbench 8.0 CE
 
   
-  
-## Dependências e Versões Necessárias
+##   Versões Necessárias
 
 
 Django version 5.0.4
@@ -27,24 +27,23 @@ Para rodar a aplicação, primeiro clone esse repositorio:
 ```
 git clone https://github.com/LuizClaudioMaegima/casa-de-repouso
 cd casa-de-repouso
+
+Crie o ambiente virtual
+
 python -m venv .venv
- .\.venv\Scripts\activate 
-pip install -r requirements.txt
-python manage.py migrate
-```
-```
 
-```
+
 Set-ExecutionPolicy -Scope Process -ExecutionPolicy bypass
-```
-Ative o ambiente virtual
-```
 
-```
+Ative o ambiente virtual
+   
+ .\.venv\Scripts\activate 
+
+
 Por fim , rode a aplicação :
-```
+
 python manage.py runserver
-```
+
 
 
 
@@ -52,3 +51,4 @@ python manage.py runserver
 ## ⏭️ Próximos passos
 
 Pretendo melhorar o projeto, adicionando funcionalidades.
+
